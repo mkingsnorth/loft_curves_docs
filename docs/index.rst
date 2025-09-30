@@ -3,8 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Loft Curves's documentation!
+Loft Curves Documentation
 =======================================
+
+---------------------------------
+What is Loft Curves?
+---------------------------------
 
 .. toctree::
    :maxdepth: 2
