@@ -14,6 +14,8 @@ What is Loft Curves?
    :maxdepth: 2
    :caption: Contents:
 
+   get_started
+
 
 
 Indices and tables
