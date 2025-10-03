@@ -6,27 +6,13 @@ Getting Started
    :depth: 2
    :backlinks: none
 
-This guide will walk you through installing the add-on and creating your first lofted surface.
+This guide will walk you through installing the add-on and creating your first lofted surface.  If you have any questions or run into any issues, please do not hesitate to :ref:`contact us<contact>`.
 
 .. note::
    This add-on requires **Blender 4.5 or higher**.
 
-Installation
-------------
-
-.. image:: ./_static/images/installation.gif
-   :align: center
-   :width: 600px
-   :alt: Installation
-
-You can simply **drag and drop the supplied curves_to_mesh.zip file** into Blender 4.5 or above.
-
-Once installed, the tools will appear in the **N-panel** under the *Loft Curves* section.
-
-.. image:: ./_static/images/curves_to_mesh_panel.jpg
-   :align: center
-   :width: 600px
-   :alt: N-panel
+.. note::
+   Tooltips have been added to the UI for quick reference while using the add-on.
 
 .. raw:: html
 
@@ -226,13 +212,10 @@ The add-on also provides ready-made helper objects:
 
 These helpers are a fast way to start experimenting.
 
-Next Steps:
+Next Steps
 ----------------------------------------
 
 - Explore the modifier settings on the generated loft object.  
 - Edit, duplicate, and subdivide curves to refine your surface.  
 - Experiment with your own curve setups.  
-- Report any bugs or unexpected behaviour during testing.  
-
-.. note::
-   Tooltips have been added to the UI for quick reference while using the add-on.
+- Report any bugs or unexpected behaviour by :ref:`contacting us<contact>`.  
