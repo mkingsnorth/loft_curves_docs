@@ -10,6 +10,19 @@ Loft Curves
 What is Loft Curves?
 ---------------------------------
 
+.. image:: ./_static/images/loft_curves_patch.gif
+   :align: center
+   :width: 600px
+   :alt: Loft Curves Splash
+
+
+`Loft Curves <https://blendermarket.com/products/loft-curves/?ref=361>`_ is a Blender add-on that turns sets of curves into editable surfaces which are just like any other Blender object.  It wraps a robust Geometry Nodes core inside a modifier with a toolset for curve‑driven modelling, so you can block out forms with guides and profiles, tweak interactively, and apply the modifier to export or continue modelling. 
+
+With live updates, guide curves, and sweep controls, it gives you an intuitive way to design complex forms directly from your curves, without leaving Blender.
+
+* **Use cases**: product shells, hulls, wings, footwear lasts, concept surfaces, architectural pieces, sci‑fi paneling, hard‑surface panels, and more.
+* **Designed for**: modelers, concept artists, tech artists, and anyone who prefers shaping with curves.
+
 .. image:: ./_static/images/loft_curves_boat_simple.gif
    :align: center
    :width: 600px
@@ -19,13 +32,6 @@ What is Loft Curves?
    :align: center
    :width: 600px
    :alt: Loft Curves Splash
-
-`Loft Curves <https://blendermarket.com/products/loft-curves/?ref=361>`_ is a Blender add-on that turns sets of curves into editable surfaces which are just like any other Blender object.  It wraps a robust Geometry Nodes core inside a modifier with a toolset for curve‑driven modelling, so you can block out forms with guides and profiles, tweak interactively, and apply the modifier to export or continue modelling. 
-
-With live updates, guide curves, and sweep controls, it gives you an intuitive way to design complex forms directly from your curves, without leaving Blender.
-
-* **Use cases**: product shells, hulls, wings, footwear lasts, concept surfaces, architectural pieces, sci‑fi paneling, hard‑surface panels, and more.
-* **Designed for**: modelers, concept artists, tech artists, and anyone who prefers shaping with curves.
 
 ---------------------------------
 Key Features
