@@ -29,10 +29,48 @@ This will add extra visual guides to help you identify and fix any issues. It wi
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+My curves don't seem to be affecting the lofted surface — what am I doing wrong?
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Here are some common issues to check if your curves aren't affecting the lofted surface as expected.  If yoiu are still having issues, please :ref:`Contact Us <contact>`.
+
+* **Check Curve Types**: Ensure that your curve is actually a curve type.  You can check this in the Object Data Properties tab (orange square icon) in the Properties panel:
+
+    .. image:: _static/images/check_curve_type.jpg
+        :alt: Curve Type
+        :width: 600px
+
+    A curve object shows a squiggly curve icon.  If it shows a triangle icon, it is a mesh object and will not work with the add-on. To convert a mesh to a curve, select the object, Right-click in the *3D Viewport → Convert To ➝  Mesh*.
+
+* **Make sure the curve is a 3D curve not a 2D curve**: In the Object Data Properties tab in the Properties panel, ensure that the *2D/3D* option is set to *3D*:
+
+    .. image:: _static/images/check_curve_3D.jpg
+        :alt: 3D Curve
+        :width: 600px
+
+    A 2D curve will only work in the XY plane and will not affect the lofted surface as expected.
+
+* **Make sure curve is in the correct collection**: The add-on looks for curves in the specified collection on the modifier. Make sure your curves are in this collection.
+
+If you are still having issues, please :ref:`Contact Us <contact>`.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+My profile curves are not tapering at the end correctly - what's happening?
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. image:: _static/images/curver_taper_error.jpg
+    :alt: Tapering Issue
+
+You may notice that the lofted surface does not taper correctly at the ends of the profiles in some cases. This is due to how the smoothing interpolation works for Blender curves.  A workaround is to instead use a profile curve along the side and then to use a sweep curve instead:
+
+.. image:: _static/images/profile_correction.jpg
+    :alt: Tapering Workaround
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 The guide curves don’t interpolate as expected on cylindrical lofts — what’s happening?
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-.. image:: _static/images/guide_curve_error.jpg
+.. image:: _static/images/guide_curve_error.jpg 
     :alt: Guide Curve Issue
 
 When creating cylindrical or circular lofts, guide curves can sometimes behave unexpectedly — for example, the surface may appear uneven between profiles.
@@ -43,3 +81,5 @@ This approach produces a clean, predictable result while preserving the circular
 
 .. image:: _static/images/profiles_sweep_fix.jpg
     :alt: Guide Curve Workaround
+
+

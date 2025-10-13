@@ -23,10 +23,14 @@ With live updates, guide curves, and sweep controls, it gives you an intuitive w
 * **Use cases**: product shells, hulls, wings, footwear lasts, concept surfaces, architectural pieces, sci‑fi paneling, hard‑surface panels, and more.
 * **Designed for**: modelers, concept artists, tech artists, and anyone who prefers shaping with curves.
 
-.. image:: ./_static/images/loft_curves_boat_simple.gif
+.. image:: ./_static/images/loft_curves_plane_wing.gif
    :align: center
    :width: 600px
    :alt: Loft Curves Splash
+
+.. raw:: html
+
+    <br><br>
 
 .. image:: ./_static/images/loft_curves_boat.gif
    :align: center
