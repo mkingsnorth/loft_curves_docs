@@ -42,6 +42,8 @@ Here are some common issues to check if your curves aren't affecting the lofted 
 
     A curve object shows a squiggly curve icon.  If it shows a triangle icon, it is a mesh object and will not work with the add-on. To convert a mesh to a curve, select the object, Right-click in the *3D Viewport → Convert To ➝  Mesh*.
 
+* **Check if there are modifiers on the curve**: If there are any modifiers on the curve object, try applying or removing them to see if that resolves the issue.  Modifiers (e.g. mirror) can change the curve data to mesh data that cannot be processed.  Instead, consider adding the modifier to the lofted surface instead.
+
 * **Make sure the curve is a 3D curve not a 2D curve**: In the Object Data Properties tab in the Properties panel, ensure that the *2D/3D* option is set to *3D*:
 
     .. image:: _static/images/check_curve_3D.jpg
