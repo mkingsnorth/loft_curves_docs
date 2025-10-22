@@ -60,6 +60,11 @@ Your First Loft
       :width: 600px
       :alt: Lofted Object
 
+.. tip:: 
+
+   If you wish to **edit** the generated mesh, either apply the modifier or use the freely available `Modifier List Add-on <https://docs.blender.org/manual/en/latest/addons/interface/modifier_list.html>`_ add-on built in to Blender.
+
+
 .. tip::
 
     I also use the *Offset* setting on the modifier tab to move the object out of the way so I can see the curves more clearly.
@@ -68,6 +73,7 @@ Your First Loft
        :align: center
        :width: 600px
        :alt: Lofted Object
+
 
 Editing Profiles and Guides
 ---------------------------
