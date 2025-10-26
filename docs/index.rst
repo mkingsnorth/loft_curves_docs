@@ -84,5 +84,6 @@ Key Features
    installation
    get_started
    custom_order
+   debug_mode
    troubleshooting
    contact
