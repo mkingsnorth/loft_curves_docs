@@ -83,5 +83,6 @@ Key Features
 
    installation
    get_started
+   custom_order
    troubleshooting
    contact
