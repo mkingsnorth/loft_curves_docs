@@ -37,6 +37,10 @@ With live updates, guide curves, and sweep controls, it gives you an intuitive w
    :width: 600px
    :alt: Loft Curves Splash
 
+.. raw:: html
+
+    <br><br>
+
 
 ---------------------------------
 Key Features
