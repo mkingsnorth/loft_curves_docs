@@ -18,6 +18,19 @@ This guide will walk you through installing the add-on and creating your first l
 
    <br><br>
 
+
+Introductory Video
+---------------------------------
+
+Watch the short video below to see Loft Curves in action:
+
+|intro_video|
+
+.. |intro_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zkeV69lPZoA?si=kByZygwRj5ZMlde1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 Your First Loft
 ---------------
 
