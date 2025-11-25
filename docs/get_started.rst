@@ -75,7 +75,7 @@ Your First Loft
 
 .. tip:: 
 
-   If you wish to **edit** the generated mesh, either apply the modifier or use the freely available `Modifier List Add-on <https://docs.blender.org/manual/en/latest/addons/interface/modifier_list.html>`_ add-on built in to Blender.
+   If you wish to **edit** the generated mesh, either apply the modifier or use the freely available `Modifier List Add-on <https://extensions.blender.org/add-ons/modifier-list-fork/>`_ add-on built in to Blender.
 
 
 .. tip::
