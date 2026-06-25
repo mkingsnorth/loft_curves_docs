@@ -234,7 +234,7 @@ These helpers are a fast way to start experimenting.
 Next Steps
 ----------------------------------------
 
-- Explore the modifier settings on the generated loft object.  
-- Edit, duplicate, and subdivide curves to refine your surface.  
-- Experiment with your own curve setups.  
+- Explore the modifier settings on the generated loft object.
+- Edit, duplicate, and subdivide curves to refine your surface.
+- Experiment with your own curve setups.
 - Report any bugs or unexpected behaviour by :ref:`contacting us<contact>`.  
